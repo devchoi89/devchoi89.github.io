@@ -33,6 +33,8 @@ input {
   height: 30px;
   text-align: center;
   background-color: rgba(179, 219, 255, 0.2);
+  font-weight: bold;
+  -webkit-text-stroke: 0.5px rgb(0, 0, 0);
 }
 
 #top {
