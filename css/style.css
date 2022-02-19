@@ -23,7 +23,13 @@ body {
   left: 50%;
   top: 50%;
   margin-left: -500px;
-  margin-top: 100px;
+  margin-top: 50px;
+}
+
+#title {
+  font-size: 100px;
+  background: linear-gradient(yellow 80%, transparent 20%);
+  -webkit-text-stroke: 0px rgb(255, 255, 255);
 }
 
 input {
@@ -58,7 +64,7 @@ input {
 #weather {
   margin: 0px;
   font-size: 20px;
-  background-color: rgba(179, 219, 255, 0.2);
+  background-color: rgba(179, 219, 255, 0.5);
   -webkit-text-stroke: 0px rgb(255, 255, 255);
 }
 
@@ -82,7 +88,7 @@ ul {
 
 #todo-list span {
   margin: 0px;
-  background: linear-gradient(to top, yellow 80%, transparent 20%);
+  background: linear-gradient(to top, yellow 80%, transparent 10%);
   font-size: 30px;
   -webkit-text-stroke: 0px rgb(255, 255, 255);
 }
@@ -103,7 +109,7 @@ ul {
   font-size: 20px;
   color: rgb(0, 0, 0);
   -webkit-text-stroke: 0px rgb(0, 0, 0);
-  background-color: rgba(255, 166, 196, 0.452);
+  background-color: rgba(179, 219, 255, 0.5);
 }
 
 #quote div:last-child {
