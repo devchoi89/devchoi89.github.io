@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gugi&family=Hi+Melody&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>My To Do App</title>
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="box">
+        <div id="weather">
+          <span id="city"></span>
+          <span id="weather-main"></span>
+          <span id="temp"></span>
+          <span id="temp-min"></span>
+          <span id="temp-max"></span>
+        </div>
+        <div id="top"></div>
+        <form class="hidden" id="login-form">
+          <input
+            required
+            maxlength="15"
+            type="text"
+            placeholder="이름이 무엇인가요?"
+          />
+          <input type="submit" value="Log In" />
+        </form>
+        <h2 id="clock">00:00</h2>
+        <h1 class="hidden" id="greeting"></h1>
+        <form id="todo-form">
+          <input type="text" placeholder="오늘 뭐 하지?" />
+        </form>
+        <ul id="todo-list"></ul>
+        <div id="quote">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/clock.js"></script>
+    <script src="js/greetings.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
