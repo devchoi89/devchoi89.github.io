@@ -33,10 +33,6 @@ input {
   font-weight: bold;
 }
 
-#top {
-  margin: 50px;
-}
-
 #login-form input:first-child {
   width: 200px;
 }
@@ -61,7 +57,9 @@ input {
 
 #greeting {
   margin: 0px;
+  padding: 0px;
   padding-bottom: 0px;
+  border: 0px;
   font-size: 60px;
 }
 
